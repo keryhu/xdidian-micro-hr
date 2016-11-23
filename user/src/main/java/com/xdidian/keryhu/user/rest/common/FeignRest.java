@@ -3,7 +3,6 @@ package com.xdidian.keryhu.user.rest.common;
 import com.xdidian.keryhu.user.domain.User;
 import com.xdidian.keryhu.user.domain.feign.AuthUserDto;
 import com.xdidian.keryhu.user.domain.feign.EmailAndPhoneDto;
-import com.xdidian.keryhu.user.domain.feign.LoggedWithMenuDto;
 import com.xdidian.keryhu.user.exception.UserNotFoundException;
 import com.xdidian.keryhu.user.repository.UserRepository;
 import com.xdidian.keryhu.user.service.ConverterUtil;
@@ -44,8 +43,7 @@ public class FeignRest {
      */
 
     @GetMapping("/users/query/findByIdentity")
-    public ResponseEntity<?> findByIdentity(
-            @RequestParam("identity") String identity) {
+    public ResponseEntity<?> findByIdentity(@RequestParam("identity") String identity) {
 
         Object[] args = {identity};
         err=messageSource.getMessage("message.user.idNotFound",args,
@@ -74,10 +72,9 @@ public class FeignRest {
      * isInComopany
      * 查询当前用户是否有公司组织，还是单身一人，根据这个结果，前台判断在用户登录后，
      * 显示什么样子的菜单。
-     * 目前调用这个接口的feign是 personal－core)
+     * 目前调用这个接口的feign是 menu)
      * <p>
-     * //使用在  personal——core 服务器里面，用户获取自身 菜单的时候，
-     * 同时获取，用户的姓名，用户的companyId。
+     * //使用在  menu 服务器里面，用户获取自身 菜单的时候，
      *
      * @param id 特指 userId，不是email，也不会是phone，
      *           因为用户获取菜单的时候，直接上传的userId。
@@ -86,12 +83,10 @@ public class FeignRest {
      *           因为menu服务器，如果通过 @AuthenticationPrincipal ，
      *           那么就必须要传递 user，而这个目前没有。
      */
-    @GetMapping("/users/getIsInCompanyAndName")
+    @GetMapping("/users/getIsInCompany")
 
-    public LoggedWithMenuDto getIsInCompanyAndName(
-            @RequestParam("id") String id) {
-
-        return userService.getIsInCompanyAndName(id);
+    public Boolean getIsInCompany(@RequestParam("id") String id) {
+        return userService.getIsInCompany(id);
     }
 
 
@@ -121,8 +116,7 @@ public class FeignRest {
      */
 
     @GetMapping("users/emailAndPhone")
-    public EmailAndPhoneDto getEmailAndPhoneById(
-            @RequestParam("id") String id) {
+    public EmailAndPhoneDto getEmailAndPhoneById(@RequestParam("id") String id) {
         Object[] args = {id};
         err=messageSource.getMessage("message.user.idNotFound",args,
                 LocaleContextHolder.getLocale());

@@ -1,0 +1,46 @@
+server:
+  port: 8005
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+
+    rest:
+          base-path: /api
+          default-page-size: 10
+
+
+  cloud:
+    stream:
+      bindings:
+        checkNewCompanyOutputChannel:
+          destination: checkNewCompany
+        websocketAndMessageOutputChannel:
+          destination: websocketAndMessage
+          contentType: application/json
+
+      
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 1Mb
+      max-request-size: 3Mb
+imageResize:
+  max-size: 512000   #500kb
+
+newCompany:
+  max-new-company-quantity: 5
+
+
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+  
+      
+
+ 
+  
+

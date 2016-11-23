@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.function.Function;
 
 import static com.xdidian.keryhu.util.Constants.INTERVAL_DAYS_OF_NAME_MODIFICATION;
@@ -42,7 +43,7 @@ public class ConverterUtil {
         user.setPhone(x.getPhone());
         user.setName(x.getName());
         user.setPassword(x.getPassword());
-        user.setRoles(Arrays.asList(Role.ROLE_DEFAULT));
+        user.setRoles(Collections.singletonList(Role.ROLE_DEFAULT));
         user.setRegisterTime(LocalDateTime.now());
         user.setEmailStatus(false);
         //第一次的注册用户，默认设置 生日为 1月1日。
@@ -123,11 +124,10 @@ public class ConverterUtil {
 
     //计算当前用户的名字，是否可以修改。，默认是修改一次后，再次修改需要等待至少60天。
     public boolean nameCanModify(User u) {
-        if (u.getNameModifyTime() == null) {
-            return true;
-        }
-        return LocalDateTime.now().
-                isAfter(u.getNameModifyTime().plusDays(INTERVAL_DAYS_OF_NAME_MODIFICATION));
+        return u != null && (u.getNameModifyTime() == null ||
+                LocalDateTime.now().isAfter(u.getNameModifyTime()
+                        .plusDays(INTERVAL_DAYS_OF_NAME_MODIFICATION)));
+
     }
 
 }

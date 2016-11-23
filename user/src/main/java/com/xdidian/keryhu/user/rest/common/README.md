@@ -24,8 +24,8 @@ rest
      "/users/query/findById" 用在account－activated 激活的时候，feign user服务器
      
      需要用户登录才能获取
-     /users/getIsInCompanyAndName   用在side-menu service，
-        access-token，因为feign调用此接口，需要用户登录，获取需要access-token 的header
+     /users/getIsInCompany   用在side-menu service，
+ 
         
         提供的参数： 另外就是 用户的userid，
        

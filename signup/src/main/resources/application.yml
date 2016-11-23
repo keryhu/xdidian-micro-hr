@@ -1,0 +1,24 @@
+server:
+  port: 8003
+  
+
+
+spring:    
+  cloud:
+    stream:
+      bindings: 
+        signupOutputChannel: 
+          destination: signup
+          contentType: application/json
+          
+        emailActivatedOutputChannel:
+          destination: emailActivated
+          contentType: application/json
+          
+  
+        
+ # 设置邮箱激活，验证码的最大有效期是3个小时，最多允许重复发送激活邮件 6次 
+emailActivate:
+  expired-time: 3
+ 
+

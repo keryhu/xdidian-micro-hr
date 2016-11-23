@@ -15,7 +15,6 @@
     <properties>
         <webjars.jquery>3.1.1</webjars.jquery>
         <webjars.bootstrap>3.3.7-1</webjars.bootstrap>
-        <webjars.angularjs>1.5.8</webjars.angularjs>
     </properties>
 
     <dependencies>
@@ -88,11 +87,6 @@
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
             <version>${webjars.bootstrap}</version><!--$NO-MVN-MAN-VER$-->
-        </dependency>
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>angularjs</artifactId>
-            <version>${webjars.angularjs}</version>
         </dependency>
     </dependencies>
 

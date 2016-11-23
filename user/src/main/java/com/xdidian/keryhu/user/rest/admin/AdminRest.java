@@ -9,7 +9,6 @@ import com.xdidian.keryhu.user.domain.admin.AddServiceForm;
 import com.xdidian.keryhu.user.repository.UserRepository;
 import com.xdidian.keryhu.user.service.admin.AdminConvertUtil;
 import com.xdidian.keryhu.user.service.admin.AdminService;
-import com.xdidian.keryhu.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +44,6 @@ import java.util.stream.Stream;
 public class AdminRest {
 
     private final AdminService adminService;
-    private final UserService userService;
     private final UserRepository repository;
     private final AdminConvertUtil adminConvertUtil;
     private final MessageSource messageSource;

@@ -2,236 +2,237 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc4ee88-a3fd-4d7d-aaee-6af20781e362" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/resources/microserver.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/image/用户登录流程.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/image/防暴力破解账户密码的登录限制插件.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/microserver.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/resources/microserver.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/resources/microserver.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/images/recover/提交新密码.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/images/recover/输入账户.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/images/recover/选择何种方式.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/images/recover/重新选择发送方式.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/images/recover/验证提交的token.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/resources/microserver.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/docker/runboot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClientFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/AccountMethodDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/ActivatedProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/CommonActivatedLocalToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/CommonConfirmTokenDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/FormAccountEditDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/NewPasswordFormDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/TokenType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/exception/EmailNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/exception/GlobalExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/exception/TokenNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/repository/CommonActivatedTokenRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/AccountEditRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ConfirmTokenRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ForLoginRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ResendRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ResignupRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/recover/CheckMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/recover/NewPasswordRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/recover/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/recover/ResolveAccountAndTokenExist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/security/MethodSecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/security/PasswordBcryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/security/ResourceServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/security/RoleHierarchyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/AccountEditService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/CommonTokenService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/ConverterUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/RecoverService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/ResendService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/TokenConfirmSuccessService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/TokenExpiredService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/VerifyTokenAccountService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/AccountEditServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/CommonTokenServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/RecoverServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/ResendServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/TokenConfirmSuccessServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/TokenExpiredServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/VerifyTokenAccountServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/ActivatedSuccessOutputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/ActivatedSuccessProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/EmailActivatedConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/EmailActivatedInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/RecoverPasswordSuccessOutChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/RecoverPasswordSuccessProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/RemoveUserOutputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/RemoveUserProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/ResendActivateOutputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/stream/ResendActivateProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account-activate/src/main/resources/locale/messages_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/docker/runboot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/AccountActivateClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/AccountActivateFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/UserClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/UserClientFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/AuthUserDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/JwtOfReadAndWrite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/LoginAttemptProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/LoginAttemptUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/exception/ExceptionControllerAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/repository/LoginAttemptUserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/IpBlockRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/LoginRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/UserRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/MethodSecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/OAuth2AuthorizationConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/ResourceServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/RoleHierarchyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/SimpleCORSFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/UserDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/WebSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthSuccessHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationFailureHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/LoginAttemptUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/LoginAttemptUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/UtilsImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/stream/LoginSuccessOutputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/stream/LoginSuccessProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/locale/messages_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/allValidate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/passwordValidate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/stringValidate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/usernameValidate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/docker/runboot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/xdidian/keryhu/config_server/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/xdidian/keryhu/eureka/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/docker/runboot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClientFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/rest/MainController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/security/MethodSecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/security/RoleHierarchyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/security/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pc-gateway/src/main/resources/static/error/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stop-all-images.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/docker/runboot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/config/CreateDir.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/config/MongoUserLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/config/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/UserInfoDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/admin/AddServiceForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/admin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/edit/BirthdayModifyDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/edit/ChangePasswordDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/edit/NameModifyDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/edit/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/edit/UserEditDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/AuthUserDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/EmailAndPhoneDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/LoggedWithMenuDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/properties/ImageResizeProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/exception/EmailNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/exception/ExceptionControllerAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/exception/UserNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/repository/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/admin/AdminRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/admin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FreeQueryRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/SecuredRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/UploadUserHeaderRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/UserEditRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/service/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/service/ServiceRest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/MethodSecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/PasswordBcryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/ResourceServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/RoleHierarchyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/ConverterUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/admin/AdminConvertUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/admin/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/admin/AdminServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/admin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/common/RemoveUserConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/common/RemoveUserInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/company/CheckNewCompanyConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/company/CheckNewCompanyInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/login/LoginSuccessConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/login/LoginSuccessInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/recover/RecoverPasswordSuccessConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/recover/RecoverPasswordSuccessInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/signup/ActivatedSuccessConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/signup/ActivatedSuccessInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/signup/SignupConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/stream/signup/SignupInputChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/src/main/resources/locale/messages_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/image/邮箱激活流程图.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/images/用户注册流程.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/resources/microserver.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/client/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/client/UserClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/client/UserClientFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/CreateDir.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/ExceptionControllerAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/WebConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/converter/TreeDepartmentReadConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/converter/TreeDepartmentWriteConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/converter/TreeOfficeReadConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/converter/TreeOfficeWriteConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/TreeDepartmentDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/TreeDepartmentSerializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/TreeOfficeDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/TreeOfficeSerializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/convert/CompanyIndustryConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/json/convert/EnterpriseNatureConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/propertiesConfig/ImageResizeProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/config/propertiesConfig/NewCompanyProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/Office.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/Staff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/address/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/address/AreaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/check/CheckCompanyInfoForRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/check/CheckCompanySignupInfoDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/check/CompanySignupItems.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/check/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/check/Reject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/common/CheckCompanyByteItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/common/CheckCompanyStringItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/common/Company.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/common/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/component/CompanyIndustry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/component/EnterpriseNature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/create/NewCompanyDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/company/create/NewCompanyResolveInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/domain/feign/EmailAndPhoneDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/repository/CompanyRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/common/AddressRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/common/MainRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/common/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/CompanyRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/CreateOrRecreateCompanyRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/AdminRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/CheckCompanyRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/ServiceRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/security/PasswordBcryBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/AddressService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/CompanyService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/ConvertUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/DepartmentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/impl/AddressServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/impl/CompanyServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/impl/DepartmentServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/stream/CheckNewCompanyOutputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/stream/CheckNewCompanyProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/stream/WebsocketAndMessageOutputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/stream/WebsocketAndMessageProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/resources/locale/messages_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/src/main/resources/static/area.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/config/AppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/config/MailSenderConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/config/MvcConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/domain/EmailStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/domain/Host.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/mail/EmailHtmlSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/service/SignupService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/company/CheckNewCompanyConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/company/CheckNewCompanyInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/signup/EmailActivatedConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/signup/EmailActivatedInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/signup/ResendActivateConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/java/com/xdidian/keryhu/mail/stream/signup/ResendActivateInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/resources/templates/checkCompany.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail/src/main/resources/templates/emailActivated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/client/UserClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/client/UserClientFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/config/MenuTypeConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/config/WebConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/CarrerPlanningResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/DraftAuthor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/ReleaseType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/Menu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuControlAuthorities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/target/TargetType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/CarrerPlanningPostTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/PerformacePostTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/RecruitPostTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/ReleasePostTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/postTemplate/TrainingPostTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/repository/MenuRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/rest/MenuRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/rest/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/config/SubjectConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/config/WebConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/SubjectMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/UpdateMessageForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/repository/MessageRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/QueryRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/TestRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/UpdateMessageRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/ConvertUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/MessageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/MessageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/stream/WebsocketAndMessageConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/stream/WebsocketAndMessageInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message/src/main/resources/locale/messages_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/PropertyRegisterApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/client/UserClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/client/UserClientFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/domain/ActivatedProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/domain/SignupForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/exception/ExceptionControllerAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/rest/MainRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/service/ConverterUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/stream/EmailActivatedOutputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/stream/EmailActivatedProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/stream/SignupOutputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/stream/SignupProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signup/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/docker/runboot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/CustomHandshakeInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketBrokerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketConnectHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketDisconnectHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketHandlersConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/domain/ActiveWebSocketUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/domain/ActiveWebSocketUserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/rest/TestWebsocketRest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/MethodSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/ResourceServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/RoleHierarchyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/stream/WebsocketAndMessageConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/stream/WebsocketAndMessageInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/resources/bootstrap.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/auth-server/src/main/resources/static/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/LoggedWithMenuDto.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth-server/pom.xml" afterPath="$PROJECT_DIR$/auth-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xdidian-micro-hr.iml" afterPath="$PROJECT_DIR$/xdidian-micro-hr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/README.md" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/admin/AdminRest.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/admin/AdminRest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/ConverterUtil.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/ConverterUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserService.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserServiceImpl.java" />
     </list>
     <ignored path="xdidian-micro-hr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -244,6 +245,12 @@
     <ignored path="$PROJECT_DIR$/auth-server/target/" />
     <ignored path="$PROJECT_DIR$/pc-gateway/target/" />
     <ignored path="$PROJECT_DIR$/account-activate/target/" />
+    <ignored path="$PROJECT_DIR$/signup/target/" />
+    <ignored path="$PROJECT_DIR$/mail/target/" />
+    <ignored path="$PROJECT_DIR$/company/target/" />
+    <ignored path="$PROJECT_DIR$/menu/target/" />
+    <ignored path="$PROJECT_DIR$/websocket/target/" />
+    <ignored path="$PROJECT_DIR$/message/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -253,6 +260,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -277,49 +292,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/exception/EmailNotActivatedException.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/login.js" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/passwordValidate.js" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/usernameValidate.js" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/loginRest.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/UserRest.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationEntryPoint.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/templates/error.html" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/CustomErrorController.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/Utils.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/UtilsImpl.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/exception/ExceptionControllerAdvice.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/locale/messages_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/LoginAttemptUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/css/login.css" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/stringValidate.js" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/allValidate.js" />
-        <option value="$PROJECT_DIR$/auth-server/pom.xml" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/static/js/app.js" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/OAuth2AuthorizationConfig.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/config/Constants.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/AccountEditServiceImpl.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/CommonTokenServiceImpl.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/RecoverServiceImpl.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/Host.java" />
-        <option value="$PROJECT_DIR$/auth-server/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/ResendServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/security/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClient.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClientFallback.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/AccountEditRest.java" />
-        <option value="$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ForLoginRest.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" />
-        <option value="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClient.java" />
-        <option value="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClientFallback.java" />
-        <option value="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/rest/MainController.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/Application.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/LoginRest.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/MyHandler.java" />
@@ -328,6 +303,46 @@
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthSuccessHandler.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/README.md" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/signup/pom.xml" />
+        <option value="$PROJECT_DIR$/signup/src/main/java/com/xdidian/keryhu/signup/rest/MainRest.java" />
+        <option value="$PROJECT_DIR$/mail/pom.xml" />
+        <option value="$PROJECT_DIR$/company/pom.xml" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/client/UserClientFallback.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/CheckCompanyRest.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/CompanyRest.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/ServiceRest.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/xdidian/keryhu/company/rest/company/service/AdminRest.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/admin/AdminRest.java" />
+        <option value="$PROJECT_DIR$/menu/pom.xml" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/LoggedWithMenuDto.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/domain/feign/README.md" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/ConverterUtil.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/client/UserClientFallback.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/README.md" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/config/MenuTypeConvert.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/ResponseWhenQueryMenus.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/README.md" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/rest/MenuRest.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/README.md" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/README.md" />
+        <option value="$PROJECT_DIR$/websocket/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/CustomHandshakeInterceptor.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketBrokerConfig.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/message/pom.xml" />
+        <option value="$PROJECT_DIR$/message/README.md" />
       </list>
     </option>
   </component>
@@ -343,6 +358,34 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="company" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="company" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
@@ -494,22 +537,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/auth-server/src/main/resources/static" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client" />
-      <recent name="$PROJECT_DIR$/account-activate/src/main/java" />
-      <recent name="$PROJECT_DIR$/account-activate/src/main/resources" />
-      <recent name="$PROJECT_DIR$/account-activate/src/main" />
-      <recent name="$PROJECT_DIR$/account-activate" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/auth-server/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/auth-server/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/config-server/src/main" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/message/src/main/java" />
+      <recent name="$PROJECT_DIR$/message/src/main/resources" />
+      <recent name="$PROJECT_DIR$/message/src/main" />
+      <recent name="$PROJECT_DIR$/message" />
+      <recent name="$PROJECT_DIR$/websocket/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.pc-gateway">
+  <component name="RunManager" selected="Spring Boot.message">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -548,6 +593,12 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -634,10 +685,52 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="mail" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.mail.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="mail" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="signup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.signup.PropertyRegisterApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="signup" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="account-activate" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.account_activate.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="account-activate" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="company" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.company.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="company" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="menu" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.menu.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="menu" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="websocket" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.websocket.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="websocket" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="message" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xdidian.keryhu.message.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="message" />
       <envs />
       <method />
     </configuration>
@@ -648,13 +741,19 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.eureka" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.config-server" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.user" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.auth-server" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.account-activate" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.pc-gateway" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.mail" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.signup" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.account-activate" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.company" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.menu" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.websocket" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.message" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.pc-gateway" />
     </list>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -683,14 +782,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38387096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3424015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -717,354 +816,446 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="完成了spring OAuth2 SSo 后台的工作，完成了登录后跳转前台或者之前secured页面的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了spring OAuth2 SSo 后台的工作，完成了登录后跳转前台或者之前secured页面的功能" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/config/Constants.java" />
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/domain/ActivatedProperties.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuControlAuthorities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/domain/Host.java" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/auth-server/README.md" />
-    <entry file="file://$PROJECT_DIR$/pc-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="103">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClientFallback.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/AccountEditRest.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/MenuType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
-          <caret line="73" column="76" lean-forward="false" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
+        <state relative-caret-position="-930">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ConfirmTokenRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ForLoginRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ResendRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="59" column="32" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/rest/ResignupRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/AccountEditServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/CommonTokenServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="69" column="30" lean-forward="false" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/RecoverServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/ResendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/TokenConfirmSuccessServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/TokenExpiredServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/service/impl/VerifyTokenAccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/AccountActivateClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/AccountActivateFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/client/UserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/README.md" />
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/client/UserClientFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/rest/common/FeignRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/rest/MainController.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/ResponseWhenQueryMenus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationEntryPoint.java" />
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xdidian/keryhu/user/security/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/security/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/java/com/xdidian/keryhu/pc_gateway/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/service/LoginAttemptUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/MvcConfig.java" />
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/CustomErrorController.java" />
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/rest/LoginRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/OAuth2AuthorizationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pc-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/MyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/README.md">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/domain/core/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="269">
-            <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/MethodSecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/security/ResourceServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/ResourceServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/rest/MenuRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="404">
+          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthSuccessHandler.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationProvider.java">
+    <entry file="file://$PROJECT_DIR$/menu/src/main/java/com/xdidian/keryhu/menu/service/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signup/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signup/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/CustomHandshakeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/xdidian/keryhu/auth_server/security/custom/CustomAuthenticationFailureHandler.java">
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/HttpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        <state relative-caret-position="180">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketBrokerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-activate/src/main/java/com/xdidian/keryhu/account_activate/client/UserClient.java">
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketConnectHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="70" column="33" lean-forward="false" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <caret line="44" column="48" lean-forward="true" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketDisconnectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/config/WebSocketHandlersConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/domain/ActiveWebSocketUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/domain/ActiveWebSocketUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/rest/TestWebsocketRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/CustomJwtTokenConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/MethodSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/MyResourceServerTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/security/RoleHierarchyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/xdidian/keryhu/websocket/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-258">
+            <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/config/SubjectConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/SubjectMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/domain/UpdateMessageForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/QueryRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/TestRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/rest/UpdateMessageRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/security/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/ConvertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/service/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/stream/WebsocketAndMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/com/xdidian/keryhu/message/stream/WebsocketAndMessageInputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,12 +1311,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>user</last-edited>
+          <last-edited>Spring|message</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.22643678" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

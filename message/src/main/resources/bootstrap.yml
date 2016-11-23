@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: message
+  cloud:  
+    config:
+       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+  
+
+ 
+encrypt:
+  fail-on-error: false
+  # 如果写成key－store: 则会出错。
+  keyStore:
+    location: classpath:microserver.jks
+    password: jsk8iiu2e # -storepass 密码 
+    alias:  serverconfig
+

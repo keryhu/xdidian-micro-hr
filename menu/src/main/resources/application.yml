@@ -1,0 +1,23 @@
+server:
+  port: 8006
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+
+      
+            
+        
+          
+  
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+
+      
+
+ 
+  
+

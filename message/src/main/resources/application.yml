@@ -1,0 +1,42 @@
+server:
+  port: 8008
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+    rest:
+      base-path: /api
+      default-page-size: 10
+  messages:
+      basename: locale/messages_zh_CN
+      encoding: UTF-8
+      cache-seconds: 3600
+  http:
+    multipart:
+      max-file-size: 1Mb
+      max-request-size: 3Mb
+      
+
+
+  cloud:
+      stream:
+        bindings:
+          websocketAndMessageInputChannel:
+            destination: websocketAndMessage
+            content-type: application/x-java-object; type=com.xdidian.keryhu.domain.message.MessageCommunicateDto;
+
+
+
+
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+  
+      
+
+ 
+  
+

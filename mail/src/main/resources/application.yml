@@ -1,0 +1,33 @@
+server:
+  port: 8002
+    
+
+
+spring:
+  mail:
+  #上线时候，需要重新设置
+    host: smtp.qq.com
+    username: 948747450@qq.com
+    # 需要加密
+    password: '{cipher}AQBJcp8DJpqtScM6Te3bZKGs5zvwtkjenZ24cFfUpkdUapLC5PrZXM0vSZ4LebLAjhqUDGNMf95hLEmj1gWVFXRpjuETB2DT8dYGMoKCDa6duXI7Vz2vPjeKFl9AWWxw7M3poCcUiV9B65Y+0LbQka8cWLE06o9EvTpEGiZCaLyi2zy3wBwTMWyfKNwwSOYBecHO6naLIrOQCMz4PcyGM0RHyu9kRJKt1tGEkJT3MgPTcW5HOLsCPWn7LkLuEHY9tjdqDuZovrr+lGZavNqI/RiQZK4E3zegjotM/Su5wPzR+AdlH31uzeGjYSiKVptxFMamedRlo7IA002oofJ3gYuCZzIWabNeichy1eaXXZP24L4xX9qmlILGLnqXyCdwMy0='
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.socketFactory.port: 465    
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+      mail.smtp.socketFactory.fallback: false
+  
+  
+  
+  cloud:
+    stream:
+      bindings:   
+        emailActivatedInputChannel:
+          destination: emailActivated                   
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.tokenConfirm.CommonTokenDto;
+        resendActivateInputChannel:
+          destination: resendActivate
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.tokenConfirm.CommonTokenDto;
+        checkNewCompanyInputChannel:
+          destination: checkNewCompany
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.company.CheckCompanyDto;

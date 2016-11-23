@@ -4,10 +4,16 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/account-activate/account-activate.iml" filepath="$PROJECT_DIR$/account-activate/account-activate.iml" />
       <module fileurl="file://$PROJECT_DIR$/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/auth-server/auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu/menu.iml" filepath="$PROJECT_DIR$/menu/menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
       <module fileurl="file://$PROJECT_DIR$/pc-gateway/pc-gateway.iml" filepath="$PROJECT_DIR$/pc-gateway/pc-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signup/signup.iml" filepath="$PROJECT_DIR$/signup/signup.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/xdidian-micro-hr.iml" filepath="$PROJECT_DIR$/xdidian-micro-hr.iml" />
     </modules>
   </component>

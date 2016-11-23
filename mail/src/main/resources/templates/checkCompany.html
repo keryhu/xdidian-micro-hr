@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>审核公司资料</title>
+    <!--  注意 在邮件系统中，thymeleaf 文件的 bootstrap 和js 的文件引用地址，不能写成 th:src,这样找不到地址。
+    注意下面的href 链接，不要写成 th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}" rel="stylesheet" />
+    不然的话，发送邮件的时候，找不到相对地址，找不到css文件。
+    -->
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+</head>
+<body class="container">
+
+<h3>
+    尊敬的
+    <small><em><span th:text="${email}">email</span></em></small>
+    ,欢迎加入新地点！
+
+</h3>
+
+<p>
+    <span th:text="${content}">审核结果</span><span th:href="@{${url}}">url</span>
+</p>
+
+
+<script src="/webjars/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+</body>
+</html>

@@ -14,6 +14,12 @@
         <module>auth-server</module>
         <module>pc-gateway</module>
         <module>account-activate</module>
+        <module>signup</module>
+        <module>mail</module>
+        <module>company</module>
+        <module>menu</module>
+        <module>websocket</module>
+        <module>message</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -2,7 +2,6 @@ package com.xdidian.keryhu.user.service;
 
 
 import com.xdidian.keryhu.user.domain.edit.ChangePasswordDto;
-import com.xdidian.keryhu.user.domain.feign.LoggedWithMenuDto;
 import org.springframework.data.repository.query.Param;
 import org.springframework.security.access.method.P;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -20,13 +19,13 @@ public interface UserService {
 
     /**
      * (查看制定的user id的用户，是否已经在公司组织里,这个需要用户登录后，才能查看)
-     * 使用在  personal——core 服务器里面，用户获取自身 菜单的时候，同时获取，用户的姓名，用户的companyId。
+     * 使用在  menu 服务器里面，用户获取自身 菜单的时候，。
      *
      * @param id userId
      */
 
     @PreAuthorize("#n==authentication.name or hasRole('ROLE_XDIDIAN_SERVICE')")
-    public LoggedWithMenuDto getIsInCompanyAndName(@Param("n") final String id);
+     Boolean getIsInCompany(@Param("n") final String id);
 
 
     /**
@@ -39,7 +38,7 @@ public interface UserService {
 
 
     @PreAuthorize("#n==authentication.name or hasRole('ROLE_XDIDIAN_SERVICE')")
-    public void validateNameEdit(final String name, @Param("n") final String id);
+     void validateNameEdit(final String name, @Param("n") final String id);
 
     /**
      * validateBirthdayAndSave
@@ -51,7 +50,7 @@ public interface UserService {
 
 
     @PreAuthorize("#c.userId==authentication.name or hasRole('ROLE_XDIDIAN_SERVICE')")
-    public void validateBirthdayAndSave(final @P("c") BirthdayModifyDto dto);
+     void validateBirthdayAndSave(final @P("c") BirthdayModifyDto dto);
 
     /**
      * @param dto    设定文件
@@ -60,7 +59,7 @@ public interface UserService {
      */
 
     @PreAuthorize("#c.id==authentication.name")
-    public void validateChangePassword(final @P("c") ChangePasswordDto dto);
+     void validateChangePassword(final @P("c") ChangePasswordDto dto);
 
 
 }

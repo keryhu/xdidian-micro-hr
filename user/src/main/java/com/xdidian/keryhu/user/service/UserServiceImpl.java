@@ -1,7 +1,6 @@
 package com.xdidian.keryhu.user.service;
 
 import com.xdidian.keryhu.user.domain.User;
-import com.xdidian.keryhu.user.domain.feign.LoggedWithMenuDto;
 import com.xdidian.keryhu.user.repository.UserRepository;
 import com.xdidian.keryhu.user.domain.edit.BirthdayModifyDto;
 import com.xdidian.keryhu.user.domain.edit.ChangePasswordDto;
@@ -17,7 +16,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
-import java.time.LocalDate;
 import java.util.Optional;
 
 import static com.xdidian.keryhu.util.StringValidate.isPeopleName;
@@ -43,22 +41,16 @@ public class UserServiceImpl implements UserService {
 
     /**
      * (查看制定的user id的用户，是否已经在公司组织里,这个需要用户登录后，才能查看)
-     * 使用在  personal——core 服务器里面，用户获取自身 菜单的时候，同时获取，
-     * 用户的姓名，用户的companyId。
+     * 使用在 menu 服务器里面，用户获取自身 菜单的时候，同时获取
      *
      * @param id userId
      * @return
      */
     @Override
-    public LoggedWithMenuDto getIsInCompanyAndName(String id) {
-        return repository.findById(id).map(e -> {
-            LoggedWithMenuDto dto = new LoggedWithMenuDto();
-            boolean isInCompany = !e.getCompanyIds().isEmpty();
-            dto.setInCompany(isInCompany);
-            dto.setPeopleName(e.getName());
-            return dto;
-        })
-                .orElse(null);
+    public Boolean getIsInCompany(String id) {
+        return repository.findById(id).map(e -> e.getCompanyIds() != null
+                && !e.getCompanyIds().isEmpty())
+                .orElse(false);
     }
 
     /**
@@ -76,7 +68,7 @@ public class UserServiceImpl implements UserService {
 
         Optional<User> user = repository.findById(id);
         validateUserId(id);
-        User u = user.get();
+        User u = user.orElse(null);
         Assert.isTrue(!name.equals(u.getName()),
                 messageSource.getMessage("message.user.nameCannotSameWithOrigin",
                         null, LocaleContextHolder.getLocale()));
@@ -84,9 +76,9 @@ public class UserServiceImpl implements UserService {
         //算出上次修改时间，返回给前台。
 
         boolean canModify = converterUtil
-                .nameCanModify(repository.findById(id).get());
+                .nameCanModify(repository.findById(id).orElse(null));
 
-        if(u.getNameModifyTime()!=null){
+        if (u.getNameModifyTime() != null) {
             Object[] args = {u.getNameModifyTime().getYear(),
                     u.getNameModifyTime().getMonth(),
                     u.getNameModifyTime().getDayOfMonth()};
@@ -137,7 +129,7 @@ public class UserServiceImpl implements UserService {
 
         Assert.isTrue(!dto.getOriginPassword().equals(dto.getNewPassword()),
                 messageSource.getMessage("message.user.newPasswordCannotSameWithOrigin",
-                        null,LocaleContextHolder.getLocale()));
+                        null, LocaleContextHolder.getLocale()));
     }
 
 
@@ -148,11 +140,11 @@ public class UserServiceImpl implements UserService {
      */
     private void validateUserId(String id) {
         Optional<User> user = repository.findById(id);
-        Object[] args={id};
+        Object[] args = {id};
 
         Assert.isTrue(user.isPresent(),
                 messageSource.getMessage("message.user.idNotFound",
-                args,LocaleContextHolder.getLocale()));
+                        args, LocaleContextHolder.getLocale()));
     }
 
     /**
@@ -167,8 +159,8 @@ public class UserServiceImpl implements UserService {
                 .getPassword();
         boolean match = encoder.matches(inputPassword, hashPassword);
 
-        Assert.isTrue(match,messageSource.getMessage("message.user.passwordNotCorrect",
-                null,LocaleContextHolder.getLocale()));
+        Assert.isTrue(match, messageSource.getMessage("message.user.passwordNotCorrect",
+                null, LocaleContextHolder.getLocale()));
     }
 
 }
