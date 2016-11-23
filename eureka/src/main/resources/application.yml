@@ -1,0 +1,21 @@
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: ${domain.name:localhost} 
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://15900455491:skdjf7782c@${domain.name:localhost}:${server.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 0 
+    
+security:
+  user:
+    name: 15900455491
+    password: skdjf7782c
+
+spring.cloud.config.discovery.enabled: true

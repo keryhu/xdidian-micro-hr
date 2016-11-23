@@ -1,0 +1,55 @@
+server:
+  port: 8080
+
+
+    
+    
+spring:
+  aop:
+    proxy-target-class: true
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true    
+  http:
+    multipart:
+      max-file-size: 1Mb
+      max-request-size: 3Mb
+      
+         
+security:
+  user:
+    password: none
+  oauth2:
+    client:
+      accessTokenUri: http://${domain.name:localhost}:9999/uaa/oauth/token
+      userAuthorizationUri: http://${domain.name:localhost}:9999/uaa/oauth/authorize
+      clientId: kksdi2388wmkwe
+      clientSecret: kksd23isdmsisdi2
+
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApVuOPKLwgnZxosn1zUH35nHq0bTxbcky8y9VgYg+1/XAWj6hPftDyUIXcH2vaRauoJxCf6QtpID3kcQCGVFvzkrQrNT1+2y+OjqKMmgZPe6EF6qd+1djqgfSzOSQuyIrFfhmMO84KMhyuL6wZnq0fqgqIZIXmzzyd5j12JL3jIHxsv8m5b7Crk+XuQToKCId1rTXB17t+ZmNjc6TXkmdcsCqiBRbKZ7N//VH33nNIxbFHF1uFEDrdLI2ziG/iGt9cS9dVvecgLgmPaE45ALgbv8WQycEMjCD/jopfhb2u+ybcOAEoH1pzjX4WHEVoGjVadyBE8hq9U4aH1x+Cji0kwIDAQAB
+          -----END PUBLIC KEY-----
+          
+  
+zuul:
+  routes:
+    signup: /api/signup/**
+    user: /api/user/**
+    auth-server: /api/auth-server/**
+    account-activate: /api/account-activate/**
+    company: /api/company/**
+    menu: /api/menu/**
+    websocket: /api/websocket/**
+    message: /api/message/**
+    
+    
+    
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+
+      

@@ -1,0 +1,62 @@
+server:
+  port: 9999
+  context-path: /uaa
+  
+       
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+        
+  messages:
+    basename: locale/messages_zh_CN
+    encoding: UTF-8
+    cache-seconds: 3600
+    
+      
+  cloud:
+    stream:
+      bindings:
+        loginSuccessOutputChannel:
+          destination: loginSuccess
+
+        
+       
+
+ # custom jwt varietes 
+jwtOfReadAndWrite:
+  clientId: kksdi2388wmkwe
+  clientSecret: kksd23isdmsisdi2
+  autoApproval: true
+  scopes: 
+     - read
+     - write
+  grantTypes: 
+     - refresh_token 
+     - password
+     - authorization_code
+  resourceIds:
+     - ReadAndWriteResource
+     # 5 分钟
+  access-token-validity-seconds: 300
+    # 10 days
+  refresh-token-validity-seconds: 864000
+   
+   #设定固定清零时间为6个小时，最大的尝试失败的次数为10次，10次后，锁定ip 24小时。  
+LoginAttempt:
+  maxAttemptTimes: 10
+  hours-of-lock: 24
+  hours-of-perid: 6
+  
+  
+  
+
+  
+  

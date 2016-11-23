@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: pc-gateway
+      
+  cloud:  
+    config:
+       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+     
+encrypt:
+  fail-on-error: false
+  keyStore:
+    location: classpath:microserver.jks
+    password: jsk8iiu2e # -storepass 密码 
+    alias:  serverconfig
+
+    
+    

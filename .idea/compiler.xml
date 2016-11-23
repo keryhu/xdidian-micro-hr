@@ -22,11 +22,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="xdidian-micro-hr" />
+        <module name="account-activate" />
+        <module name="auth-server" />
+        <module name="config-server" />
+        <module name="eureka" />
+        <module name="pc-gateway" />
+        <module name="user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="xdidian-micro-hr" target="1.5" />
+      <module name="account-activate" target="1.8" />
+      <module name="auth-server" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="pc-gateway" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="xdidian-micro-hr" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

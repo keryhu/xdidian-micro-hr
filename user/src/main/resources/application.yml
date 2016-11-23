@@ -1,0 +1,60 @@
+server:
+  port: 8001
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+    rest:
+      base-path: /api
+      default-page-size: 10
+  messages:
+      basename: locale/messages_zh_CN
+      encoding: UTF-8
+      cache-seconds: 3600
+  http:
+    multipart:
+      max-file-size: 1Mb
+      max-request-size: 3Mb
+      
+  cloud:
+    stream:
+      bindings: 
+        loginSuccessInputChannel: 
+          destination: loginSuccess
+        removeUserInputChannel:
+          destination: removeUser
+        signupInputChannel: 
+          destination: signup
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.SignupDto
+        activatedSuccessInputChannel:
+          destination: activatedSuccess
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.tokenConfirm.CommonTokenDto
+        recoverPasswordSuccessInputChannel:
+          destination: updateSuccess
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.tokenConfirm.NewPasswordDto
+
+        checkNewCompanyInputChannel:
+          destination: checkNewCompany
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.company.CheckCompanyDto;
+
+imageResize:
+  width: 200
+  height: 250
+  max-size: 1024000
+  min-resize-size: 102400
+
+
+
+
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
+  
+      
+
+ 
+  
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>新地点登陆页面</title>
+    <link rel="stylesheet" type="text/css"
+          href="/uaa/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/login.css" type="text/css"/>
+
+</head>
+<body>
+<ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active menu"><a href="http://localhost:4200">新地点</a></li>
+    <li role="presentation" class="menu"><a href="http://localhost:4200">首页</a></li>
+</ul>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3 ">
+            <div class="login-head">
+                <h1>登&nbsp;&nbsp;陆</h1>
+            </div>
+            <div ng-controller="loginCtl">
+                <form id="loginForm" role="form" th:action="@{/login}" method="post" class="all">
+                    <fieldset>
+                        <!--@GetMapping("/login") @RequestParam(value = "error", required = false)
+                        操作此错误-->
+                        <div class="loginError"
+                             th:if="${#httpServletRequest.getSession().getAttribute('error')}"
+                             th:text="${#httpServletRequest.getSession().getAttribute('excep')}">
+                            用户名，密码登录错误
+
+                        </div>
+
+
+                        <div class="loginError" th:text="${blockMsg}">IP被冻结</div>
+
+
+                        <div  th:if="${blockMsg}==null">
+                            <div class="control-group">
+                                <div class="controls" id="usernameControlGroup">
+                                    <label for="username">帐号:</label>
+                                    <input type="text" id="username" name="username"
+                                           placeholder="请输入电子邮箱/手机号"/>
+                                    <div class="help-inline"></div>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls" id="passwordControlGroup">
+                                    <label for="password">密码:</label>
+                                    <input type="password" id="password" name="password" placeholder="请输入密码"/>
+                                    <div class="help-inline"></div>
+                                </div>
+                            </div>
+
+
+                            <input type="hidden" id="csrf_token" name="${_csrf.parameterName}"
+                                   value="${_csrf.token}"/>
+
+                            <div class="remember-forget">
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-block btn-primary "
+                                            disabled="disabled">登录
+                                    </button>
+
+                                </div>
+
+
+                                <div class="remember">
+                                    <a href="http://localhost:4200/recover">忘记密码?</a>
+                                    &nbsp; &nbsp;
+                                    <a href="http://localhost:4200/signup">注册</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script th:inline="javascript">
+
+    /*<![CDATA[*/
+
+    var msg = [[${blockMsg}]];
+    console.log(msg != null);
+
+    /*]]>*/
+</script>
+
+
+<script type="text/javascript"
+        src="/uaa/webjars/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript"
+        src="/uaa/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="/uaa/webjars/angularjs/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="js/stringValidate.js"></script>
+<script type="text/javascript" src="js/usernameValidate.js"></script>
+<script type="text/javascript" src="js/passwordValidate.js"></script>
+<script type="text/javascript" src="js/allValidate.js"></script>
+
+<script type="text/javascript" src="js/login.js"></script>
+
+<!--
+<script type="text/javascript" src="js/app.js"></script>
+
+-->
+
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+version: '2'
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes_from:
+      -  mongodata
+    networks:
+      - wfij
+
+  mongodata:
+    image: busybox
+    volumes:
+      - /home/keryhu/dbdata/mongodb:/data/db
+    networks:
+      - wfij
+
+
+  redis:
+    image: redis
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes_from:
+      -  redisdata
+#产品时，这个需要根据实际情况修改，同时需要修改更新的还有 spring 中的redis yml配置
+    environment:
+      - REDIS_PASSWORD=29c4181fb842b5f24a3103dbd2ba17accb1f7e3c8f198689821f7955401ab921
+    command: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      - wfij
+
+  redisdata:
+    image: busybox
+          #产品上线时候，需要修改实际的map本地地址
+    volumes:
+       - /home/keryhu/dbdata/redis_data:/data
+       - /home/keryhu/dbdata/redis_logs:/var/log/redis
+       - /home/keryhu/dbdata/redis_conf/redis.conf:/usr/local/etc/redis/redis.conf
+    networks:
+       - wfij
+
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    restart: always
+    #此环境变量设置rabbitmq 的初始 用户，密码，和vhost，并且删除了默认的guest用户
+    #此变量与spring－service中的变量设置一致，一同修改
+    environment:
+      RABBITMQ_DEFAULT_USER: wfij
+      RABBITMQ_DEFAULT_PASS: kkslcm8923s
+      RABBITMQ_DEFAULT_VHOST: /wfij
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - wfij
+  
+
+  eureka:
+    image: eureka:1.0-SNAPSHOT
+    container_name: eureka
+    restart: always
+    ports:
+      - "8761:8761"
+    environment:
+      DOMAIN_NAME: 192.168.1.110
+    networks:
+      - wfij
+    
+      
+  config_server:
+    image: config-server:1.0-SNAPSHOT
+    container_name: config_server
+    restart: always
+    ports:
+      - "8888:8888"
+    environment:
+      DOMAIN_NAME: 192.168.1.110
+    networks:
+      - wfij
+    depends_on: 
+      - eureka
+      
+      
+  user:
+    image: user:1.0-SNAPSHOT
+    container_name: user
+    restart: always
+    ports:
+      - "8001:8001"
+    environment:
+      MONGO_HOST: mongo
+      DOMAIN_NAME: 192.168.1.110
+      RABBIT_HOST: rabbitmq
+    networks:
+      - wfij
+    depends_on: 
+      - mongo
+      - eureka
+      - config_server
+      
+      
+  auth_server:
+    image: auth-server:1.0-SNAPSHOT
+    container_name: auth_server
+    restart: always
+    ports:
+      - "9999:9999"
+    environment:
+      MONGO_HOST: mongo
+      DOMAIN_NAME: 192.168.1.110
+      RABBIT_HOST: rabbitmq
+    networks:
+      - wfij
+    depends_on: 
+      - mongo
+      - redis
+      - eureka
+      - user_account
+
+
+  mail:
+    image: mail:1.0-SNAPSHOT
+    container_name: mail
+    restart: always
+    ports:
+     - "8002:8002"
+    environment:
+      DOMAIN_NAME: 192.168.1.110
+      RABBIT_HOST: rabbitmq
+    networks:
+      - wfij
+    depends_on: 
+      - eureka
+      - config_server
+
+  signup:
+      image: signup:1.0-SNAPSHOT
+      container_name: signup
+      restart: always
+      ports:
+       - "8003:8003"
+      environment:
+        DOMAIN_NAME: 192.168.1.110
+        RABBIT_HOST: rabbitmq
+      networks:
+        - wfij
+      depends_on:
+        - eureka
+        - config_server
+
+  account_activate:
+    image: account-activate:1.0-SNAPSHOT
+    container_name: account_activate
+    restart: always
+    ports:
+     - "8004:8004"
+    environment:
+      MONGO_HOST: mongo
+      RABBIT_HOST: rabbitmq
+      DOMAIN_NAME: 192.168.1.110
+    networks:
+      - wfij
+    depends_on: 
+      - eureka
+      - config_server
+      
+      
+  company:
+    image: company:1.0-SNAPSHOT
+    container_name: company
+    restart: always
+    ports:
+     - "8005:8005"
+    environment:
+      MONGO_HOST: mongo
+      RABBIT_HOST: rabbitmq
+      DOMAIN_NAME: 192.168.1.110
+    networks:
+      - wfij
+    depends_on: 
+      - eureka
+      - config_server
+      
+  menu:
+    image: core:1.0-SNAPSHOT
+    container_name: core
+    restart: always
+    ports:
+     - "8006:8006"
+    environment:
+      MONGO_HOST: mongo
+      RABBIT_HOST: rabbitmq
+      DOMAIN_NAME: 192.168.1.110
+    networks:
+      - wfij
+    depends_on: 
+      - eureka
+      - config_server
+
+
+  websocket:
+        image: websocket:1.0-SNAPSHOT
+        container_name: websocket
+        restart: always
+        ports:
+         - "8007:8007"
+        environment:
+          MONGO_HOST: mongo
+          RABBIT_HOST: rabbitmq
+          REDIS_HOST: redis
+          DOMAIN_NAME: 192.168.1.110
+        networks:
+          - wfij
+        depends_on:
+          - eureka
+          - config_server
+
+  message:
+          image: message:1.0-SNAPSHOT
+          container_name: message
+          restart: always
+          ports:
+           - "8008:8008"
+          environment:
+            MONGO_HOST: mongo
+            RABBIT_HOST: rabbitmq
+            DOMAIN_NAME: 192.168.1.110
+          networks:
+            - wfij
+          depends_on:
+            - eureka
+            - config_server
+        
+  pc_gateway:
+    image: pc-gateway:1.0-SNAPSHOT
+    container_name: pc_gateway
+    restart: always
+    domainname: 192.168.1.110
+    ports:
+      - "8080:8080"
+    environment:
+      DOMAIN_NAME: 192.168.1.110
+      REDIS_HOST: redis
+    networks:
+      - wfij
+    depends_on: 
+      - mongo
+      - redis
+      - eureka
+      - config_server
+      - auth_server
+      - user
+      - mail
+
+networks:
+  wfij:
+    external:
+      name: wfij-net
+
+
+
+
+
+
+

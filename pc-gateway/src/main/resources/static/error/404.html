@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>您输入的网页地址有误</title>
+    <style>
+        .msg {
+            text-align: center;
+            font-size: larger;
+            font-weight: 900;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        .button {
+            margin-left: 45%;
+        }
+
+        .value {
+            padding: 0.2rem;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="msg">访问页面出错!</div>
+
+<button type="button" class="button" onclick="goBack()">
+    <span class="value">返回</span>
+</button>
+
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>

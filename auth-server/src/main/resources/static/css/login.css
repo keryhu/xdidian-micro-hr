@@ -1,0 +1,56 @@
+/*login 的css*/
+.nav {
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.menu {
+    margin-left: 16px;
+    padding-left: 16px;
+}
+
+.all {
+    border: solid gray 1px;
+    padding: 16px;
+}
+
+.login-head {
+    background-color: #11D5EF;
+    margin-top: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.loginError {
+    color: red;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+
+.remember {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.form-actions {
+    padding-bottom: 2%;
+}
+
+.control-group input {
+    margin-bottom: 4%;
+    line-height: 35px;
+    width: 100%;
+}
+
+.help-inline {
+    margin-bottom: 16px;
+    color: red;
+    font-weight: 900;
+
+}

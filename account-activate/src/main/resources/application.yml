@@ -1,0 +1,48 @@
+server:
+  port: 8004
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:123456@${mongo.host:localhost}:27017/test
+      repositories:
+        enabled: true
+     
+  cloud:
+    stream:
+      bindings: 
+        emailActivatedInputChannel:
+          destination: emailActivated
+          content-type: application/x-java-object; type=com.xdidian.keryhu.domain.tokenConfirm.CommonTokenDto;
+        removeUserOutputChannel:
+          destination: removeUser
+        activatedSuccessOutputChannel:
+          destination: activatedSuccess
+          contentType: application/json
+        resendActivateOutputChannel:
+          destination: resendActivate
+          contentType: application/json
+        recoverPasswordSuccessOutChannel:
+          destination: updateSuccess
+          contentType: application/json
+        
+          
+  
+  messages:
+    basename: locale/messages_zh_CN
+    encoding: UTF-8
+    cache-seconds: 3600
+          
+
+  
+
+#重复发送email激活的次数 ,默认的自动清零时间为4个小时
+activated:
+  expired-time: 3    #验证码的最大有效期是3个小时
+  max-send-times: 6   # 最多允许的点击次数为6次。
+  hours-of-locked: 12   #一旦被locked 就锁定12小时
+  minutes-of-send-cycle: 2 #点击一次《重新发送》url，冷却时间为2分钟
+  hours-of-reset-send-times: 4 # 发送次数自动清零时间为4个小时
+
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: false
