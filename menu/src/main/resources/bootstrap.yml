@@ -4,7 +4,7 @@ spring:
     name: menu
   cloud:  
     config:
-       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+       uri: http://ooooooo:skdjf7782c@${domain.name:localhost}:8888
   
 
  
