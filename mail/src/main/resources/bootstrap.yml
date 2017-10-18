@@ -3,7 +3,7 @@ spring:
     name: mail
   cloud:  
     config:
-       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+       uri: http://iiiiiiii:skdjf7782c@${domain.name:localhost}:8888
   
 
  
