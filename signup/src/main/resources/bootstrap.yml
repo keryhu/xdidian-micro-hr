@@ -5,7 +5,7 @@ spring:
   #从cong-server，获取配置信息
   cloud:  
     config:
-       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+       uri: http://uuuuu:skdjf7782c@${domain.name:localhost}:8888
        
 encrypt:
   fail-on-error: false
