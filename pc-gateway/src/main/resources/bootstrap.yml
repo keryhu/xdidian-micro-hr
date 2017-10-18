@@ -4,7 +4,7 @@ spring:
       
   cloud:  
     config:
-       uri: http://15900455491:skdjf7782c@${domain.name:localhost}:8888
+       uri: http://yyyyyyyy:skdjf7782c@${domain.name:localhost}:8888
      
 encrypt:
   fail-on-error: false
